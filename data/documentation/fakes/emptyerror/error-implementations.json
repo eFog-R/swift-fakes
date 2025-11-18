@@ -1,0 +1,149 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Fakes\/documentation\/Fakes",
+        "doc:\/\/Fakes\/documentation\/Fakes\/EmptyError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Fakes\/documentation\/Fakes\/EmptyError\/Error-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Fakes"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Error Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Fakes\/documentation\/Fakes\/EmptyError\/localizedDescription"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fakes\/emptyerror\/error-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Fakes/documentation/Fakes": {
+  "abstract" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Swift Fakes",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " is an open source collection of Test Doubles for Swift",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Fakes\/documentation\/Fakes",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Fakes",
+  "type" : "topic",
+  "url" : "\/documentation\/fakes"
+},
+"doc://Fakes/documentation/Fakes/EmptyError": {
+  "abstract" : [
+    {
+      "text" : "An error that can be used as a default error in tests",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EmptyError"
+    }
+  ],
+  "identifier" : "doc:\/\/Fakes\/documentation\/Fakes\/EmptyError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EmptyError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EmptyError",
+  "type" : "topic",
+  "url" : "\/documentation\/fakes\/emptyerror"
+},
+"doc://Fakes/documentation/Fakes/EmptyError/localizedDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localizedDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/Fakes\/documentation\/Fakes\/EmptyError\/localizedDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localizedDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/fakes\/emptyerror\/localizeddescription"
+}
+}
+}

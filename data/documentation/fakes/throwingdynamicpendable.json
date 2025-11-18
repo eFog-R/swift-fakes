@@ -1,0 +1,271 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Fakes\/documentation\/Fakes"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Fakes\/documentation\/Fakes\/ThrowingDynamicPendable"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5Fakes23ThrowingDynamicPendablea",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ThrowingDynamicPendable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Fakes"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ThrowingDynamicPendable"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "renamed" : "ThrowingPendable",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "ThrowingDynamicPendable"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ThrowingDynamicPendable"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Success"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Failure"
+            },
+            {
+              "kind" : "text",
+              "text" : "> = "
+            },
+            {
+              "identifier" : "doc:\/\/Fakes\/documentation\/Fakes\/Pendable",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5Fakes8PendableC",
+              "text" : "Pendable"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6ResultO",
+              "text" : "Result"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Success"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Failure"
+            },
+            {
+              "kind" : "text",
+              "text" : ">> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Failure"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5ErrorP",
+              "text" : "Error"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fakes\/throwingdynamicpendable"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Fakes/documentation/Fakes": {
+  "abstract" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Swift Fakes",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " is an open source collection of Test Doubles for Swift",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Fakes\/documentation\/Fakes",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Fakes",
+  "type" : "topic",
+  "url" : "\/documentation\/fakes"
+},
+"doc://Fakes/documentation/Fakes/Pendable": {
+  "abstract" : [
+    {
+      "text" : "Pendable is a safe way to represent the 2 states that an asynchronous call can be in",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Pendable"
+    }
+  ],
+  "identifier" : "doc:\/\/Fakes\/documentation\/Fakes\/Pendable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Pendable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Pendable",
+  "type" : "topic",
+  "url" : "\/documentation\/fakes\/pendable"
+},
+"doc://Fakes/documentation/Fakes/ThrowingDynamicPendable": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ThrowingDynamicPendable"
+    }
+  ],
+  "identifier" : "doc:\/\/Fakes\/documentation\/Fakes\/ThrowingDynamicPendable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ThrowingDynamicPendable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ThrowingDynamicPendable",
+  "type" : "topic",
+  "url" : "\/documentation\/fakes\/throwingdynamicpendable"
+}
+}
+}
